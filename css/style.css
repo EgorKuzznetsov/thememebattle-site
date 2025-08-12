@@ -185,7 +185,7 @@ footer{text-align:center;color:#9aa3b2;padding:36px 16px}
 .pump-pill  { right:9%; bottom:26%; height:37vh; z-index:6; }
 .title {
  
-  top: 290px; /* смещение вниз */
+  top: 100px; /* смещение вниз */
 }
 }
 @media (max-width:1300px) {
@@ -201,7 +201,7 @@ footer{text-align:center;color:#9aa3b2;padding:36px 16px}
 .pump-pill  { right:8%; bottom:32%; height:31vh; z-index:6; }
 .title {
  
-  top: 330px; /* смещение вниз */
+  top: 120px; /* смещение вниз */
 }
 }
 @media (max-width:1100px) {
@@ -217,7 +217,7 @@ footer{text-align:center;color:#9aa3b2;padding:36px 16px}
 .pump-pill  { right:6%; bottom:30%; height:29vh; z-index:6; }
 .title {
  
-  top:350px; /* смещение вниз */
+  top:140px; /* смещение вниз */
   
 }
 .btn-join {
@@ -231,7 +231,7 @@ footer{text-align:center;color:#9aa3b2;padding:36px 16px}
 @media (max-width: 1024px) {
     .title {
  
-  top: 370px; /* смещение вниз */
+  top: 160px; /* смещение вниз */
   
 }
 }
@@ -248,7 +248,7 @@ footer{text-align:center;color:#9aa3b2;padding:36px 16px}
 .pump-pill  { right:4%; bottom:30%; height:29vh; z-index:6; }
 .title {
  
-  top: 390px; /* смещение вниз */
+  top: 180px; /* смещение вниз */
   
 }
 .btn-join {
@@ -272,7 +272,7 @@ footer{text-align:center;color:#9aa3b2;padding:36px 16px}
 .pump-pill  { right:2%; bottom:30%; height:26vh; z-index:6; }
 .title {
  
-  top: 410px; /* смещение вниз */
+  top: 200px; /* смещение вниз */
   font-size: 60px;
 }
 .btn-join {
@@ -310,7 +310,7 @@ footer{text-align:center;color:#9aa3b2;padding:36px 16px}
 .pump-pill  { right:2%; bottom:35%; height:20vh; z-index:6; }
 .title {
  
-  top: 430px; /* смещение вниз */
+  top: 220px; /* смещение вниз */
   font-size: 50px;
 }
 .btn-join {
