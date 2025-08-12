@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MEME COIN BATTLE — BONK vs PUMP</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css?v=7">
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">MEME COIN BATTLE</div>
+    <div class="spacer"></div>
+    <a href="#screen1">Banner</a>
+    <a href="#screen2">Info & Timer</a>
+    <a href="#screen3">Live Battle</a>
+  </div>
+</header>
+
+<!-- ======== HERO ======== -->
+<section id="screen1" class="hero">
+  <div class="title-wrap">
+    <h1 class="title">MEME<br>COIN BATTLE</h1>
+  </div>
+
+  <!-- декоративные свечи -->
+
+
+  <!-- расстановка как на твоём рефе -->
+  <div class="hero-layer">
+    <!-- BONK (левая сторона) -->
+    <img src="assets/bonk-cat.PNG"   class="char bonk-cat   idle-1" alt="BONK cat">
+    <img src="assets/bonk-coin.PNG"  class="char bonk-coin  idle-2" alt="Coin with glasses">
+    <img src="assets/bonk-girl.PNG"  class="char bonk-girl  idle-3" alt="Anime girl">
+    <img src="assets/bonk-dog.PNG"   class="char bonk-shiba idle-4" alt="BONK shiba">
+
+    <!-- PUMP (правая сторона) -->
+    <img src="assets/pump-squirrel.PNG" class="char pump-sq   idle-1" alt="Pump squirrel">
+    <img src="assets/pump-hippo.PNG"    class="char pump-hippo idle-2" alt="Hippo">
+    <img src="assets/pump-dog.PNG"      class="char pump-dog   idle-3" alt="Pump dog">
+    <img src="assets/pump-pill.PNG"     class="char pump-pill  idle-4" alt="Chill guy pill">
+  </div>
+
+  <div class="join-wrap">
+    <a class="btn-join" href="#screen3">Join the Battle</a>
+  </div>
+</section>
+
+<!-- ======== INFO & TIMER ======== -->
+<section id="screen2" class="screen">
+  <div class="wrap">
+    <h2 class="shout">Next Challengers in:</h2>
+    <div class="panel">
+      <div class="timer">
+        <div class="clock" id="clock">
+          <div><div class="digit" id="h">00</div><div class="label">hours</div></div>
+          <div><div class="digit" id="m">00</div><div class="label">min</div></div>
+          <div><div class="digit" id="s">00</div><div class="label">sec</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>Past Battles</h3>
+      <div class="history" id="history">
+        <div class="match">BONK vs PUMP — <strong>Winner:</strong> BONK — 65% / 35%</div>
+        <div class="match">BONK vs HIPPO — <strong>Winner:</strong> HIPPO — 54% / 46%</div>
+        <div class="match">PUMP vs CHILL GUY — <strong>Winner:</strong> PUMP — 58% / 42%</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>How It Works</h3>
+      <p>Challenges:
+         Every 6 hours for the first 24 hours, a new battle will be announced between Team Bonk and Team Pump. These challenges are crucial, as the team with the most wins will earn a boost (such as additional liquidity, burns, or airdrops), while the losing team will face a penalty (losing part of their supply). After the initial 24 hours, one challenge will take place every 24 hours for the remaining 16% of the supply.
+      </p>
+      <p>
+         Supply Locking:
+         Both coins will start with a 20% locked supply, controlled by the dev team. Immediately, 16% of the supply will be locked for 17 days, with 1% unlocking every 24 hours to participate in each new challenge. During the first 24 hours, the supply will be locked with 4% remaining unlocked for the first four challenges.
+      </p>
+      <p>
+         The Goal:
+         The ultimate goal is to empower the community. After a few days, the community will take control of the winnings and decide the next steps for both teams, including how the rewards are distributed or how the boost is used. This puts the power in the hands of the players, allowing them to shape the future of both Team Bonk and Team Pump.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ======== LIVE BATTLE ======== -->
+<section id="screen3" class="screen">
+  <div class="wrap">
+    <h2 class="shout">BONK vs PUMP — Live Battle</h2>
+    <div class="grid2">
+      <div class="chart-card">
+        <canvas id="priceChart" width="900" height="360" aria-label="Live price chart"></canvas>
+      </div>
+      <div class="panel">
+        <h3>Buy Tokens</h3>
+        <div class="buy">
+          <a id="buy-bonk" class="btn" href="#" target="_blank" rel="noopener">💥 Buy BONK</a>
+          <a id="buy-pump" class="btn btn-white" href="#" target="_blank" rel="noopener">🚀 Buy PUMP</a>
+        </div>
+        <hr class="sep">
+        <div class="socials">
+  <a class="btn-social" href="https://x.com/TheMemeBattle" target="_blank" rel="noopener" aria-label="Twitter">
+    <img src="./assets/logo/TwitterLogo.png" alt="Twitter">
+  </a>
+  <a class="btn-social" href="#" target="_blank" rel="noopener" aria-label="Telegram">
+    <img src="./assets/logo/TelegramLogo.webp" alt="Telegram">
+  </a>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© <span id="year"></span> Meme Coin Battle</footer>
+
+<!-- JS -->
+<script src="js/timer.js?v=3"></script>
+<script src="js/live-chart.js?v=3"></script>
+<script src="js/main.js?v=4"></script>
+</body>
+</html>
