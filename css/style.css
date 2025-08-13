@@ -188,6 +188,54 @@ footer{text-align:center;color:#9aa3b2;padding:36px 16px}
   top: 100px; /* смещение вниз */
 }
 }
+@media (max-height:1448px) {
+    .bonk-cat   { left:3%;  top:2%;   height:36vh; z-index:5; }
+.bonk-coin  { left:2%;  bottom:4%; height:26vh; z-index:4; }
+.bonk-girl  { left:28%; bottom:12%; height:30vh; z-index:6; }
+.bonk-shiba { left:8%; bottom:26%;  height:42vh; z-index:7; }
+
+/* Правый блок (PUMP) */
+.pump-sq    { right:8%; top:6%;   height:30vh; z-index:6; }
+.pump-hippo { right:26%; bottom:7%; height:34vh; z-index:5; }
+.pump-dog   { right:3%; bottom:4%; height:29vh; z-index:7; }
+.pump-pill  { right:9%; bottom:26%; height:37vh; z-index:6; }
+.title {
+ 
+  top: 180px; /* смещение вниз */
+}
+}
+@media (max-height:1150px) {
+    .bonk-cat   { left:3%;  top:2%;   height:36vh; z-index:5; }
+.bonk-coin  { left:2%;  bottom:4%; height:26vh; z-index:4; }
+.bonk-girl  { left:28%; bottom:12%; height:30vh; z-index:6; }
+.bonk-shiba { left:8%; bottom:26%;  height:42vh; z-index:7; }
+
+/* Правый блок (PUMP) */
+.pump-sq    { right:8%; top:6%;   height:30vh; z-index:6; }
+.pump-hippo { right:26%; bottom:7%; height:34vh; z-index:5; }
+.pump-dog   { right:3%; bottom:4%; height:29vh; z-index:7; }
+.pump-pill  { right:9%; bottom:26%; height:37vh; z-index:6; }
+.title {
+ 
+  top: 100px; /* смещение вниз */
+}
+}
+@media (max-height:1448px) {
+    .bonk-cat   { left:3%;  top:2%;   height:36vh; z-index:5; }
+.bonk-coin  { left:2%;  bottom:4%; height:26vh; z-index:4; }
+.bonk-girl  { left:28%; bottom:12%; height:30vh; z-index:6; }
+.bonk-shiba { left:8%; bottom:26%;  height:42vh; z-index:7; }
+
+/* Правый блок (PUMP) */
+.pump-sq    { right:8%; top:6%;   height:30vh; z-index:6; }
+.pump-hippo { right:26%; bottom:7%; height:34vh; z-index:5; }
+.pump-dog   { right:3%; bottom:4%; height:29vh; z-index:7; }
+.pump-pill  { right:9%; bottom:26%; height:37vh; z-index:6; }
+.title {
+ 
+  top: 100px; /* смещение вниз */
+}
+}
 @media (max-width:1300px) {
     .bonk-cat   { left:3%;  top:2%;   height:30vh; z-index:5; }
 .bonk-coin  { left:2%;  bottom:8%; height:20vh; z-index:4; }
@@ -310,7 +358,7 @@ footer{text-align:center;color:#9aa3b2;padding:36px 16px}
 .pump-pill  { right:2%; bottom:35%; height:20vh; z-index:6; }
 .title {
  
-  top: 220px; /* смещение вниз */
+  top: 180px; /* смещение вниз */
   font-size: 50px;
 }
 .btn-join {
